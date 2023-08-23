@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+/* yêu cầu các box khi thêm đường viền hoặc padding thì thêm vào trong (inside) */
+*{box-sizing : border-box}
+
+.col-1
+{
+	width: 8.33%;
+/*	border: 1px solid red;*/
+	padding: 15px;
+}
+
+.col-2
+{
+	width: 16.66%;
+/*	border: 1px solid red;*/
+	padding: 15px;
+}
+
+.col-3
+{
+	width: 25%;
+/*	border: 1px solid red;*/
+	padding: 15px;
+}
+
+.col-4
+{
+	width: 33.33%;
+/*	border: 1px solid red;*/
+	padding: 15px;
+}
+
+.col-5
+{
+	width: 41.66%;
+/*	border: 1px solid red;*/
+	padding: 15px;
+}
+
+.col-6
+{
+	width: 50%;
+/*	border: 1px solid red;*/
+	padding: 15px;
+}
+
+.col-7
+{
+	width: 58.33%;
+/*	border: 1px solid red;*/
+	padding: 15px;
+}
+
+.col-8
+{
+	width: 66.66%;
+/*	border: 1px solid red;*/
+	padding: 15px;
+}
+
+.col-9
+{
+	width: 75%;
+/*	border: 1px solid red;*/
+	padding: 15px;
+}
+
+.col-10
+{
+	width: 83.33%;
+/*	border: 1px solid red;*/
+	padding: 15px;
+}
+
+.col-11
+{
+	width: 91.66%;
+/*	border: 1px solid red;*/
+	padding: 15px;
+}
+
+.col-12
+{
+	width: 100%;
+/*	border: 1px solid red;*/
+	padding: 15px;
+}
+
+.container
+{
+	width: 80%;
+	margin: 0 auto;
+	
+}
+
+.row
+{
+	display: flex;
+	/* các thành phần trong nó sẽ sát nhau */
+	
+	flex-wrap: wrap;
+	/* Khi width trên 1 hàng đạt tới 100% các thành phần sau đó sẽ tự động xuống hàng */
+}
+
+/*------------backround color lib---------------*/
+.bg-primary {background-color: #233b5e}
+.bg-secondary{ background-color:#0e203a }
+.bg-gmail{background-color: #EA4335}
+.bg-fb{background-color: #4267B2}
+.bg-ytb{background-color: #FF0000}
+
+/*------------text color lib---------------*/
+.text-light { color: #fff}
+.text-primary{color: #056CB6}
+.text-secondary{color: #F2C94C}
+.cl-fbook{color: #4267B2}
+.cl-ytube{color: #FF0000}
+.cl-gmail{color: #EA4335}
+.cl-twit{color: #1DA1F2}
+
+/*------------text-align lib---------------*/
+.text-ct {text-align: center}
+.text-right {text-align: right}
+
+/*-----------text transform-----------------*/
+.text-uppercase{text-transform: uppercase}
+
+/*-----------FLOAT------------------*/
+.float-left {float: left}
+.float-right {float: right}
+
+/*font-lib*/
+.f-m{font-weight: 500}
+.font-bold{font-weight: bold}
+
+/*--------------padding, margin------------*/
+.margin-0{margin: 0}
+.margin-5{margin: 5px}
+
+.pd-0{padding: 0}
+.pd-5{padding: 5px}
+.pd-20{padding: 20px}
+.pd-1-0{padding: 1px 0}
+
+.img-100{width: 100%}
+.opacity-50{opacity: 0.5}
+
+
+/*-------------POSITION CLASS---------------*/
+.relative{position: relative}
+.sticky{position: sticky}
+.absolute{position: absolute}
+.index-1{z-index:1}
+
+/*----------display------------*/
+.flex{display: flex;}
+.inline-block{display: inline-block}
+
+/*------------justify content---------------*/
+.fl-between-ct{display: flex; justify-content: space-between; align-items: center}
+
+.w-186 {width: 186px}
+
+
+
